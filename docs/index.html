@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quiverly: Arrow Puzzle Escape for Android</title>
+<meta name="description" content="Quiverly is a free arrow puzzle game for Android. Tap arrows out in the right order to clear the board, with no lost lives for mis-taps and no timer.">
+<meta property="og:title" content="Quiverly: Arrow Puzzle Escape">
+<meta property="og:image" content="https://nookeshkarri7.github.io/quiverly-arrow-puzzle/assets/og.png">
+<link rel="icon" href="assets/icon.png" type="image/png">
+<style>
+:root{--g:#F3EDE2;--c:#FFFBF4;--t:#1F2A36;--s:#3A4552;--m:#5B6470;--l:#D9CFBF;--a:#C8501E;--o:#FFFBF4;color-scheme:light}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--g:#14191F;--c:#1E252E;--t:#ECE5D8;--s:#C9CED5;--m:#A7AFB9;--l:#333D49;--a:#F08A4B;--o:#14191F;color-scheme:dark}}
+*{box-sizing:border-box}body{margin:0;background:var(--g);color:var(--t);font:400 17px/1.6 system-ui,sans-serif}
+main{max-width:920px;margin:0 auto;padding:40px 16px 64px}
+.brand{display:flex;align-items:center;gap:14px}.brand img{border-radius:14px}
+h1{font:700 clamp(34px,6.5vw,58px)/1.05 system-ui,sans-serif;letter-spacing:-.02em;margin:0}
+h2{font:700 28px/1.15 system-ui,sans-serif;margin:48px 0 12px}
+p,li{color:var(--s)}a{color:var(--t)}a:hover{color:var(--a)}
+.btn{display:inline-flex;align-items:center;min-height:52px;padding:0 26px;border-radius:26px;background:var(--a);color:var(--o);text-decoration:none;font-weight:600;margin:20px 12px 0 0}
+.btn:hover{color:var(--o);filter:brightness(.92)}
+.btn.o{background:none;color:var(--t);border:1px solid var(--l)}
+.shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:24px}
+.shots img{width:100%;height:auto;border-radius:18px;border:1px solid var(--l)}
+.video{position:relative;aspect-ratio:9/16;max-width:320px;border-radius:24px;overflow:hidden;border:1px solid var(--l);margin-top:16px;background:var(--c)}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+footer{color:var(--m);font-size:14px;margin-top:56px;border-top:1px solid var(--l);padding-top:20px}
+</style>
+</head>
+<body>
+<main>
+<div class="brand"><img src="assets/icon.png" alt="" width="64" height="64"><h1>Quiverly: Arrow Puzzle Escape</h1></div>
+<p>An arrow puzzle about order. Every arrow points somewhere and can only fly out when nothing stands in its way. Tap the free ones out, open up space and clear the board. Free, no timer, plays offline.</p>
+<a class="btn" href="https://play.google.com/store/apps/details?id=com.nktools.quiverly&amp;utm_source=github&amp;utm_medium=pages">Get it on Google Play</a>
+<a class="btn o" href="https://quiverly.pages.dev/">Visit the website</a>
+<div class="shots">
+<img src="assets/1-board.webp" alt="Arrow puzzle board with arrows bending around corners" width="360" height="640">
+<img src="assets/2-hint.webp" alt="A hint lighting up an arrow that can escape" width="360" height="640" loading="lazy">
+<img src="assets/3-slip.webp" alt="Blocked arrow wobbling, first slip forgiven" width="360" height="640" loading="lazy">
+<img src="assets/4-win.webp" alt="Level cleared, arrows in the quiver" width="360" height="640" loading="lazy">
+<img src="assets/7-dark.webp" alt="Dark theme board" width="360" height="640" loading="lazy">
+</div>
+<h2>Features</h2>
+<ul>
+<li>Press an arrow to see its exit line, lift to launch, slide off to cancel.</li>
+<li>The nearest arrow to your touch is picked, and the first slip on every level is free.</li>
+<li>Every board fits your phone; pinch to zoom, tap Fit to see it all.</li>
+<li>Freshly generated levels that grow into dense, twisting logic puzzles, with a chapter bonus every 20 levels.</li>
+<li>Hints paid with coins you earn by playing, a daily puzzle, and a 7-day check-in.</li>
+<li>Ads never interrupt a level; watching a video is always your choice.</li>
+</ul>
+<h2>Watch the teaser</h2>
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/aZe--UaPo8M" title="Quiverly teaser video" loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
+<footer><a href="https://quiverly.pages.dev/privacy/">Privacy policy</a> · <a href="mailto:anithabheesetty@gmail.com">Contact</a> · <a href="https://github.com/nookeshkarri7/quiverly-arrow-puzzle">GitHub</a> · © 2026 NK Tools</footer>
+</main>
+</body>
+</html>
